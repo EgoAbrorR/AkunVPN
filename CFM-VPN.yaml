@@ -1,17 +1,4 @@
 proxies:
-- name: trojan 
-  server: quiz.int.vidio.com
-  port: 443
-  type: trojan
-  password: jagoanssh-Cfmtest
-  skip-cert-verify: true
-  sni: id2go.ipservers.xyz
-  network: ws
-  ws-opts: 
-    path: /trojan
-    headers: 
-      Host: id2go.ipservers.xyz
-  udp: true
 - name: vmess
   server: quiz.int.vidio.com
   port: 443
