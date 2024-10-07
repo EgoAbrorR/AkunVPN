@@ -28,14 +28,3 @@ proxies:
     headers: 
       Host: id1-vmess.dnsx.my.id
   udp: true
-- name: trojan2
-  server: quiz.staging.vidio.com
-  port: 443
-  type: trojan
-  password: a5bf7728-fd4f-46b8-aadd-11c4c5175bfc
-  skip-cert-verify: true
-  sni: id1.safecdn.site
-  network: grpc
-  grpc-opts: 
-    grpc-service-name: grpc
-  udp: true
