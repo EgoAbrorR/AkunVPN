@@ -12,7 +12,7 @@ proxies:
     headers: 
       Host: id2go.ipservers.xyz
   udp: true
-- name: vless
+  - name: vless
   server: quiz.int.vidio.com
   port: 443
   type: vless
@@ -23,10 +23,10 @@ proxies:
   servername: id1vless.ipservers.xyz
   network: ws
   ws-opts: 
-     path: /jagoanssh
-     headers: 
+    path: /jagoanssh
+    headers: 
       Host: id1vless.ipservers.xyz
-   udp: true
+  udp: true
 - name: -Rhsnd
   server: quiz.int.vidio.com
   port: 443
