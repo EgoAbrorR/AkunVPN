@@ -12,3 +12,18 @@ proxies:
     headers: 
       Host: id2go.ipservers.xyz
   udp: true
+- name: vless
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: 1d8a29d9-83cb-444f-8536-6c9a0b3aa8d4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id1vless.ipservers.xyz
+    network: ws
+    ws-opts: 
+      path: /jagoanssh
+      headers: 
+        Host: id1vless.ipservers.xyz
+    udp: true
