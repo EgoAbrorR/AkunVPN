@@ -16,7 +16,7 @@ proxies:
       Host: id1-vmess.dnsx.my.id
   udp: true
 - name: sgdo
-  server: quiz.staging.vidio.com
+  server: quiz.int.vidio.com
   port: 443
   type: vmess
   uuid: 0a8da3e8-267f-4b9e-9c3d-cc3673736e40
@@ -32,7 +32,7 @@ proxies:
       Host: sg1.nathaya.eu.org
   udp: true
 - name: vless
-  server: quiz.staging.com
+  server: quiz.staging.vidio.com
   port: 443
   type: vless
   uuid: 9746393c-84cd-11ef-9d75-9f48455716fd
