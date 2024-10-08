@@ -31,3 +31,34 @@ proxies:
     headers: 
       Host: id1-vmess.dnsx.my.id
   udp: true
+- name: SANGGAR(SG)
+  server: quiz.int.vidio.com
+  port: 80
+  type: vmess
+  uuid: 7a1e35cd-cb25-4822-8fa2-9d0d72c09bb4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: zaira.juraganssh.my.id
+  network: ws
+  ws-opts: 
+    path: /vmess
+    headers: 
+      Host: zaira.juraganssh.my.id
+  udp: true
+- name: @V2RAY_VMESS
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: c6d299d4-db0b-4444-8b56-b23bbdcbcd67
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: midsUMmER-Bpb.pAgES.DEV
+    network: ws
+    ws-opts: 
+      path: /StDNeNqkbQxrj6Xy?ed=2560
+      headers: 
+        Host: mIDsuMMer-bpb.PAgEs.DeV
+    udp: true
