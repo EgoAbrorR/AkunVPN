@@ -16,7 +16,7 @@ proxies:
       Host: id1-vmess.dnsx.my.id
   udp: true
 - name: vmess2
-  server: quiz.staging.vidio.com
+  server: quiz.int.vidio.com
   port: 443
   type: vmess
   uuid: 9746393c-84cd-11ef-9d75-9f48455716fd
@@ -40,7 +40,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-  servername: zaira.juraganssh.my.id
+  servername: 
   network: ws
   ws-opts: 
     path: /vmess
@@ -48,17 +48,17 @@ proxies:
       Host: zaira.juraganssh.my.id
   udp: true
 - name: @V2RAY_VMESS
-    server: quiz.int.vidio.com
-    port: 443
-    type: vless
-    uuid: c6d299d4-db0b-4444-8b56-b23bbdcbcd67
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: midsUMmER-Bpb.pAgES.DEV
-    network: ws
-    ws-opts: 
-      path: /StDNeNqkbQxrj6Xy?ed=2560
-      headers: 
-        Host: mIDsuMMer-bpb.PAgEs.DeV
-    udp: true
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: c6d299d4-db0b-4444-8b56-b23bbdcbcd67
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: midsUMmER-Bpb.pAgES.DEV
+  network: ws
+  ws-opts: 
+    path: /StDNeNqkbQxrj6Xy?ed=2560
+    headers: 
+      Host: mIDsuMMer-bpb.PAgEs.DeV
+  udp: true
