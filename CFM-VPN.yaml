@@ -31,3 +31,18 @@ proxies:
     headers: 
       Host: sg1.nathaya.eu.org
   udp: true
+- name: vless
+  server: quiz.staging.com
+  port: 443
+  type: vless
+  uuid: 9746393c-84cd-11ef-9d75-9f48455716fd
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id1-vless.dnsx.my.id
+  network: ws
+  ws-opts: 
+    path: /vless
+    headers: 
+      Host: id1-vless.dnsx.my.id
+  udp: true
