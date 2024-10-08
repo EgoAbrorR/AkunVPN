@@ -15,39 +15,8 @@ proxies:
     headers: 
       Host: id1-vmess.dnsx.my.id
   udp: true
-- name: sgdo
-  server: quiz.int.vidio.com
-  port: 443
-  type: vmess
-  uuid: 0a8da3e8-267f-4b9e-9c3d-cc3673736e40
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: sg1.nathaya.eu.org
-  network: ws
-  ws-opts: 
-    path: /vmess
-    headers: 
-      Host: sg1.nathaya.eu.org
-  udp: true
-- name: vless
-  server: quiz.staging.vidio.com
-  port: 443
-  type: vless
-  uuid: 9746393c-84cd-11ef-9d75-9f48455716fd
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: id1-vless.dnsx.my.id
-  network: ws
-  ws-opts: 
-    path: /vless
-    headers: 
-      Host: id1-vless.dnsx.my.id
-  udp: true
 - name: vmess2
-  server: quiz.int.vidio.com
+  server: quiz.staging.vidio.com
   port: 443
   type: vmess
   uuid: 9746393c-84cd-11ef-9d75-9f48455716fd
