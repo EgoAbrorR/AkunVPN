@@ -15,3 +15,19 @@ proxies:
     headers: 
       Host: id1-vmess.dnsx.my.id
   udp: true
+- name: sgdo
+  server: quiz.staging.vidio.com
+  port: 443
+  type: vmess
+  uuid: 0a8da3e8-267f-4b9e-9c3d-cc3673736e40
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg1.nathaya.eu.org
+  network: ws
+  ws-opts: 
+    path: /vmess
+    headers: 
+      Host: sg1.nathaya.eu.org
+  udp: true
