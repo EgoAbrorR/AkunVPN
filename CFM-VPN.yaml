@@ -19,7 +19,7 @@ proxies:
   server: quiz.int.vidio.com
   port: 443
   type: vmess
-  uuid: 9746393c-84cd-11ef-9d75-9f48455716fd
+  uuid: 962bc452-8984-11ef-9c87-7ff53e84eb92
   alterId: 0
   cipher: auto
   tls: true
