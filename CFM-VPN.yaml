@@ -47,3 +47,19 @@ proxies:
     headers: 
       Host: sg2-vmess.dnsx.my.id
   udp: true
+- name: vmess4
+  server: quiz.int.vidio.com
+  port: 443
+  type: vmess
+  uuid: 962b6db8-8984-11ef-a8b8-4b878ea45126
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: us1-vmess.dnsx.my.id
+  network: ws
+  ws-opts: 
+    path: /vmess
+    headers: 
+      Host: us1-vmess.dnsx.my.id
+  udp: true
