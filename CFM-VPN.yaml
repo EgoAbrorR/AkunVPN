@@ -16,7 +16,7 @@ proxies:
       Host: sg2-vmess.dnsx.my.id
   udp: true
 - name: VmessID
-  server: quiz.int..vidio.com
+  server: quiz.int.vidio.com
   port: 443
   type: vmess
   uuid: I_Love_🇵🇸_SSHMax_9a8c9be
