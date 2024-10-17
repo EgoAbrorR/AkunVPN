@@ -1,41 +1,9 @@
 proxies:
-- name: vmess
+- name: VmessSg
   server: quiz.int.vidio.com
   port: 443
   type: vmess
-  uuid: 42b35df2-833b-11ef-843f-0f7e908d7cd4
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: id1-vmess.dnsx.my.id
-  network: ws
-  ws-opts: 
-    path: /vmess
-    headers: 
-      Host: id1-vmess.dnsx.my.id
-  udp: true
-- name: vmess2
-  server: quiz.int.vidio.com
-  port: 443
-  type: vmess
-  uuid: 962bc452-8984-11ef-9c87-7ff53e84eb92
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: id1-vmess.dnsx.my.id
-  network: ws
-  ws-opts: 
-    path: /vmess
-    headers: 
-      Host: id1-vmess.dnsx.my.id
-  udp: true
-- name: vmess3
-  server: quiz.int.vidio.com
-  port: 443
-  type: vmess
-  uuid: 97a32624-84cd-11ef-93e0-8b715d54df06
+  uuid: 157ea3de-8be0-11ef-a5d1-5b08a5d34567
   alterId: 0
   cipher: auto
   tls: true
@@ -47,19 +15,19 @@ proxies:
     headers: 
       Host: sg2-vmess.dnsx.my.id
   udp: true
-- name: vmess4
-  server: quiz.int.vidio.com
+- name: VmessID
+  server: quiz.int..vidio.com
   port: 443
   type: vmess
-  uuid: 962b6db8-8984-11ef-a8b8-4b878ea45126
+  uuid: I_Love_🇵🇸_SSHMax_9a8c9be
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: us1-vmess.dnsx.my.id
+  servername: id2.vmess.site
   network: ws
   ws-opts: 
-    path: /vmess
+    path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
     headers: 
-      Host: us1-vmess.dnsx.my.id
-  udp: true
+      Host: id2.vmess.site
+  udp: true  
