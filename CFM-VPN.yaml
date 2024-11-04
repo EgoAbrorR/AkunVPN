@@ -1,25 +1,9 @@
 proxies:
-- name: VmessSg
-  server: quiz.int.vidio.com
-  port: 443
-  type: vmess
-  uuid: 157ea3de-8be0-11ef-a5d1-5b08a5d34567
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: sg2-vmess.dnsx.my.id
-  network: ws
-  ws-opts: 
-    path: /vmess
-    headers: 
-      Host: sg2-vmess.dnsx.my.id
-  udp: true
 - name: VmessID
   server: quiz.int.vidio.com
   port: 443
   type: vmess
-  uuid: I_Love_🇵🇸_SSHMax_9a8c9be
+  uuid: I_Love_🇵🇸_SSHMax_9437d66
   alterId: 0
   cipher: auto
   tls: true
@@ -30,4 +14,52 @@ proxies:
     path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
     headers: 
       Host: id2.vmess.site
-  udp: true  
+  udp: true
+- name: TrojanSG
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: 05fbf577-390b-4664-8e1c-11c4fb48a0a5
+  skip-cert-verify: true
+  sni: sg1trws.xraysrv.sbs
+  network: ws
+  ws-opts: 
+    path: /trojan
+    headers: 
+      Host: sg1trws.xraysrv.sbs
+  udp: true
+- name: TrojanSG2
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: f818d500-9ae8-11ef-8461-1239d0255272
+  skip-cert-verify: true
+  sni: sg2-trojan.bonds.id
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: sg2-trojan.bonds.id
+  udp: true
+- name: TrojanID
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: jagoanssh-12nov
+  skip-cert-verify: true
+  sni: id1go.ipservers.xyz
+  network: ws
+  ws-opts: 
+    path: /trojan
+    headers: 
+      Host: id1go.ipservers.xyz
+  udp: true
+- name: TrojanID2
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: 2b41e33d-960c-43ff-b278-97ccfb91e84b
+  skip-cert-verify: true
+  sni: id1.trojanvh.xyz
+  network: ws
+  udp: true
