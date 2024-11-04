@@ -41,25 +41,3 @@ proxies:
     headers: 
       Host: sg2-trojan.bonds.id
   udp: true
-- name: TrojanID
-  server: quiz.int.vidio.com
-  port: 443
-  type: trojan
-  password: jagoanssh-12nov
-  skip-cert-verify: true
-  sni: id1go.ipservers.xyz
-  network: ws
-  ws-opts: 
-    path: /trojan
-    headers: 
-      Host: id1go.ipservers.xyz
-  udp: true
-- name: TrojanID2
-  server: quiz.int.vidio.com
-  port: 443
-  type: trojan
-  password: 2b41e33d-960c-43ff-b278-97ccfb91e84b
-  skip-cert-verify: true
-  sni: id1.trojanvh.xyz
-  network: ws
-  udp: true
