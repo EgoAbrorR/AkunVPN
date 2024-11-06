@@ -61,16 +61,7 @@ proxies:
   password: 0f9be2bd-bf13-4825-a4d9-00597f901c9e
   skip-cert-verify: true
   sni: id1.safecdn.site
-  network: ws
-  udp: true
-- name: TrojanID3
-  server: img.email3.vidio.com
-  port: 443
-  type: trojan
-  password: 0f9be2bd-bf13-4825-a4d9-00597f901c9e
-  skip-cert-verify: true
-  sni: id1.safecdn.site
   network: grpc
   grpc-opts: 
-    grpc-service-name: grpc
+    grpc-service-name: /anything
   udp: true
