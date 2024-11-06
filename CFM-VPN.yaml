@@ -15,6 +15,38 @@ proxies:
     headers: 
       Host: id2.vmess.site
   udp: true
+- name: VmessID2
+  server: img.email3.vidio.com
+  port: 443
+  type: vmess
+  uuid: 5077d805-e305-4562-b088-61b152a718be
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id1-ray.ipservers.xyz
+  network: ws
+  ws-opts: 
+    path: /JAGOANSSH/
+    headers: 
+      Host: id1-ray.ipservers.xyz
+  udp: true
+- name: VmessAE
+  server: img.email2.vidio.com
+  port: 443
+  type: vmess
+  uuid: 65384cec-9b97-11ef-9087-0016b061439e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: ae1-vmess.dnsx.my.id
+  network: ws
+  ws-opts: 
+    path: /vmess
+    headers: 
+      Host: ae1-vmess.dnsx.my.id
+  udp: true
 - name: TrojanID
   server: img.email2.vidio.com
   port: 443
