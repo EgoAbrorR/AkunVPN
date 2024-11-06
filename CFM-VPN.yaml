@@ -55,11 +55,22 @@ proxies:
       Host: id1go.ipservers.xyz
   udp: true
 - name: TrojanID2
-  server: quiz.int.vidio.com
+  server: img.email3.vidio.com
   port: 443
   type: trojan
-  password: 2b41e33d-960c-43ff-b278-97ccfb91e84b
+  password: 0f9be2bd-bf13-4825-a4d9-00597f901c9e
   skip-cert-verify: true
-  sni: id1.trojanvh.xyz
+  sni: id1.safecdn.site
   network: ws
+  udp: true
+- name: TrojanID3
+  server: img.email3.vidio.com
+  port: 443
+  type: trojan
+  password: 0f9be2bd-bf13-4825-a4d9-00597f901c9e
+  skip-cert-verify: true
+  sni: id1.safecdn.site
+  network: grpc
+  grpc-opts: 
+    grpc-service-name: grpc
   udp: true
