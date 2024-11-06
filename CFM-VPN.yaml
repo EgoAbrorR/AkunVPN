@@ -15,34 +15,8 @@ proxies:
     headers: 
       Host: id2.vmess.site
   udp: true
-- name: TrojanSG
-  server: quiz.int.vidio.com
-  port: 443
-  type: trojan
-  password: 05fbf577-390b-4664-8e1c-11c4fb48a0a5
-  skip-cert-verify: true
-  sni: sg1trws.xraysrv.sbs
-  network: ws
-  ws-opts: 
-    path: /trojan
-    headers: 
-      Host: sg1trws.xraysrv.sbs
-  udp: true
-- name: TrojanSG2
-  server: quiz.int.vidio.com
-  port: 443
-  type: trojan
-  password: f818d500-9ae8-11ef-8461-1239d0255272
-  skip-cert-verify: true
-  sni: sg2-trojan.bonds.id
-  network: ws
-  ws-opts: 
-    path: /howdy
-    headers: 
-      Host: sg2-trojan.bonds.id
-  udp: true
 - name: TrojanID
-  server: quiz.int.vidio.com
+  server: img.email2.vidio.com
   port: 443
   type: trojan
   password: jagoanssh-12nov
@@ -54,14 +28,18 @@ proxies:
     headers: 
       Host: id1go.ipservers.xyz
   udp: true
-- name: TrojanID2
+- name: VlessID
   server: img.email3.vidio.com
   port: 443
-  type: trojan
-  password: 0f9be2bd-bf13-4825-a4d9-00597f901c9e
+  type: vless
+  uuid: 11a61d4a-665c-4510-be06-f79651efef54
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: id1.safecdn.site
-  network: grpc
-  grpc-opts: 
-    grpc-service-name: /anything
+  servername: id1vless.ipservers.xyz
+  network: ws
+  ws-opts: 
+    path: /jagoanssh
+    headers: 
+      Host: id1vless.ipservers.xyz
   udp: true
