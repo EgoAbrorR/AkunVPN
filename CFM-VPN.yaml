@@ -1,93 +1,14 @@
 proxies:
-- name: VmessID
-  server: quiz.int.vidio.com
-  port: 443
-  type: vmess
-  uuid: I_Love_🇵🇸_SSHMax_9437d66
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: id2.vmess.site
-  network: ws
-  ws-opts: 
-    path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
-    headers: 
-      Host: id2.vmess.site
-  udp: true
-- name: VmessID2
-  server: www.lipcon.com
-  port: 443
-  type: vmess
-  uuid: 5077d805-e305-4562-b088-61b152a718be
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: id1-ray.ipservers.xyz
-  network: ws
-  ws-opts: 
-    path: /JAGOANSSH/
-    headers: 
-      Host: id1-ray.ipservers.xyz
-  udp: true
-- name: VmessAE
-  server: quiz.int.vidio.com
-  port: 443
-  type: vmess
-  uuid: 65384cec-9b97-11ef-9087-0016b061439e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: ae1-vmess.dnsx.my.id
-  network: ws
-  ws-opts: 
-    path: /vmess
-    headers: 
-      Host: ae1-vmess.dnsx.my.id
-  udp: true
-- name: VmessAE2
-  server: img.email3.vidio.com
-  port: 80
-  type: vmess
-  uuid: 65384cec-9b97-11ef-9087-0016b061439e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: 
-  network: ws
-  ws-opts: 
-    path: /vmess
-    headers: 
-      Host: ae1-vmess.dnsx.my.id
-  udp: true
-- name: TrojanID
-  server: quiz.staging.vidio.com
-  port: 443
+- name: TrojanPrem
   type: trojan
-  password: jagoanssh-12nov
-  skip-cert-verify: true
-  sni: id1go.ipservers.xyz
-  network: ws
-  ws-opts: 
-    path: /trojan
-    headers: 
-      Host: id1go.ipservers.xyz
-  udp: true
-- name: VlessID
-  server: quiz.int.vidio.com
+  server: quiz.vidio.com
   port: 443
-  type: vless
-  uuid: 11a61d4a-665c-4510-be06-f79651efef54
-  cipher: auto
-  tls: true
+  password: 9c771826-1482-4c99-9b0b-e1f10bc97c11
+  sni: idcx4.natanvpn.xyz
   skip-cert-verify: true
-  servername: id1vless.ipservers.xyz
   network: ws
-  ws-opts: 
-    path: /jagoanssh
-    headers: 
-      Host: id1vless.ipservers.xyz
+  ws-opts:
+      path: "/trojan"
+      headers:
+         Host: idcx4.natanvpn.xyz
   udp: true
