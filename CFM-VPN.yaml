@@ -12,7 +12,7 @@ proxies:
       headers:
          Host: idcx4.natanvpn.xyz
   udp: true
-  - name: TrojanPrem2
+- name: TrojanPrem2
   type: trojan
   server: quiz.int.vidio.com
   port: 443
