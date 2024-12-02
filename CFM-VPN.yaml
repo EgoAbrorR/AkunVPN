@@ -12,3 +12,16 @@ proxies:
       headers:
          Host: idcx4.natanvpn.xyz
   udp: true
+  - name: TrojanPrem2
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 9293196b-9ee3-4c2d-92d7-e5a7c68ea621
+  sni: contabo.natanvpn.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+      path: "/trojan"
+      headers:
+         Host: contabo.natanvpn.xyz
+  udp: true
