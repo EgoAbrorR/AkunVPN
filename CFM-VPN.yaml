@@ -1,4 +1,19 @@
 proxies:
+- name: PremiumID
+  type: vless
+  server: quiz.int.vidio.com
+  port: 443
+  uuid: 689b13aa-9d03-4b52-90be-9e1f9c6410bb
+  cipher: auto
+  skip-cert-verify: true
+  tls: true
+  servername: id-01.langgeng.web.id
+  network: ws
+  ws-opts:
+      path: /vless
+      headers:
+         Host: id-01.langgeng.web.id
+  udp: true
 - name: TrojanPrem
   type: trojan
   server: quiz.vidio.com
